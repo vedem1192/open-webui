@@ -404,7 +404,8 @@ print(
 v{VERSION} - building the best open-source AI user interface.
 {f"Commit: {WEBUI_BUILD_HASH}" if WEBUI_BUILD_HASH != "dev-build" else ""}
 https://github.com/open-webui/open-webui
-{LDAP_SERVER_HOST}:{LDAP_SERVER_PORT}
+
+\x1b[6;30;42m http://{LDAP_SERVER_HOST}:{LDAP_SERVER_PORT} \x1b[0m'
 """
 )
 
